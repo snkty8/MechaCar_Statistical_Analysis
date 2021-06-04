@@ -35,3 +35,11 @@ The data above was created by importing MechaCar_mpg.csv into RStudio.  It was t
 1. A large variance indicates that numbers in the set are far from the mean and far from each other. A small variance, on the other hand, indicates the opposite. As seen in the images above, lot 1 has a very small variance and lot 3 is the complete opposite. This indicates the suspensions in lot 1 are almost identical, while the ones in lot 3 are all over the place.  From the data above, lots 1 and 2 do not exceed the 100 pounds per square inch, while lot 3 does.    
 
 ## T-Tests on Suspension Coils
+
+![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_PSI.png)
+
+![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_lot_1.png)
+
+![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_lot_2.png)
+
+![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_lot_3.png)
