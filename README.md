@@ -22,3 +22,16 @@ The data above was created by importing MechaCar_mpg.csv into RStudio.  It was t
 2. The slope of the linear model is considered to be non zero, and a positive slope.  This comes from the positive R-squared value, the multiple R-squared value: 0.7149.  These are moderately strong values that indidcate for every positive increase in one variable, there is a positive increase of a fixed proportion in the other. 
 
 3. This linear model does an adquate job of predicting the mpg of the Mechacar prototypes. From the R-sqaured value, there is 71.5% chance for this model producing effective models for the future.  Also the p-value of 5.35e-11, which is far less than 0.05.  This indicates the results are replicable.
+
+
+## Summary Statistics on Suspension Coils
+
+    - Total Summary
+![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+
+    - Lot Summary
+![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
+
+1. A large variance indicates that numbers in the set are far from the mean and far from each other. A small variance, on the other hand, indicates the opposite. As seen in the images above, lot 1 has a very small variance and lot 3 is the complete opposite. This indicates the suspensions in lot 1 are almost identical, while the ones in lot 3 are all over the place.  From the data above, lots 1 and 2 do not exceed the 100 pounds per square inch, while lot 3 does.    
+
+## T-Tests on Suspension Coils
