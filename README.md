@@ -35,11 +35,20 @@ The data above was created by importing MechaCar_mpg.csv into RStudio.  It was t
 1. A large variance indicates that numbers in the set are far from the mean and far from each other. A small variance, on the other hand, indicates the opposite. As seen in the images above, lot 1 has a very small variance and lot 3 is the complete opposite. This indicates the suspensions in lot 1 are almost identical, while the ones in lot 3 are all over the place.  From the data above, lots 1 and 2 do not exceed the 100 pounds per square inch, while lot 3 does.    
 
 ## T-Tests on Suspension Coils
-
+T-test for all lots for PSI
 ![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_PSI.png)
 
+T-test for Lot 1
 ![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_lot_1.png)
 
+T-test for Lot 2
 ![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_lot_2.png)
 
+T-test for Lot 3
 ![image](https://github.com/snkty8/MechaCar_Statistical_Analysis/blob/main/images/t_test_lot_3.png)
+
+1. I performed a T-test to determine if all manufacturing lots and each lot individually were statiscally different from the population of 1,500 pounds per square inch. My null hypothesis was that there is no statistical difference and my alternate hypothesis was that there is a statistical difference.  The p-value for for all lots was: 0.51.  This means there is not enough statistical evidence to reject the null hypothesis.  Meaning the mean of the population for all lots are not statistically different from the manufactuers. Individually, lot 1 had a p-value of 1, lot 2 had a p-value of 0.6072, and lot 3 had a p-value of 0.04168.  Lots 1 and 2 show statiscal evidence they are different from the population, while lot 3 is not different. We can reject the null hypothesis for lot 3, while we cannot for lots 1 and 2. 
+
+## Study Design: MechaCar vs Competition
+
+
